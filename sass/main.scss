@@ -2,9 +2,14 @@
 @import 'base/normalized';
 @import 'utils/placeholders';
 @import 'utils/mixin';
+@import 'utils/is-hidden';
 
 @import 'components/body';
 @import 'components/container';
+
+
+// Modale
+@import 'components/modale';
 
 // Верхняя линия
 @import 'components/header';
@@ -38,7 +43,3 @@
 
 // Follow
 @import 'components/follow';
-
-.backdrop {
-    display: none;
-}

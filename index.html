@@ -14,25 +14,25 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <form class="form">
-                <h2 class="subtitle">Оставьте свои данные, мы вам перезвоним</h2>
+                <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
 
                 
-                    <label class="form-label">
-                        <span class="form-title">Имя</span>
-                        <div class="thumb">
-                            <input type="text" name="name" class="input">
-                            <svg class="icon">
+                    <label class="form__label">
+                        <span class="form__subtitle">Имя</span>
+                        <div class="form__thumb">
+                            <input type="text" name="name" class="form__input">
+                            <svg class="form__icon">
                                 <use href="./image/logo/icons.svg#icon-person-form"></use>
                             </svg>
                         </div>
                     </label>
                 
 
-                    <label class="form-label">
-                        <span class="form-title">Телефон</span>
-                        <div class="thumb">
-                            <input type="tel" name="tel" class="input">
-                            <svg class="icon">
+                    <label class="form__label">
+                        <span class="form__subtitle">Телефон</span>
+                        <div class="form__thumb">
+                            <input type="tel" name="tel" class="form__input">
+                            <svg class="form__icon">
                                 <use href="./image/logo/icons.svg#icon-tel-form"></use>
                             </svg>
                         </div>
@@ -40,11 +40,11 @@
                 
 
                 
-                    <label class="form-label">
-                        <span class="form-title">Почта</span>
-                        <div class="thumb">
-                            <input type="email" name="mail" class="input">
-                            <svg class="icon">
+                    <label class="form__label">
+                        <span class="form__subtitle">Почта</span>
+                        <div class="form__thumb">
+                            <input type="email" name="mail" class="form__input">
+                            <svg class="form__icon">
                                 <use href="./image/logo/icons.svg#icon-email-form"></use>
                             </svg>                           
                         </div>
@@ -53,23 +53,22 @@
 
 
                 
-                    <label class="form-label comment-label">
-                        <span class="form-title">Комментарий</span>
-                        <textarea name="comment" rows="8" class="comment" placeholder="Введите текст"></textarea>
+                    <label class="form__label comment__label">
+                        <span class="form__subtitle">Комментарий</span>
+                        <textarea name="comment" rows="8" class="form__comment" placeholder="Введите текст"></textarea>
                     </label>
                 
 
                 
                     
-                    <div class="policy-field">
-                        <label for="checkbox" class="policy-label">
-                            
-                            <input type="checkbox" name="policy" class="checkbox" id="checkbox">
-                            <span class="icon"></span>
-                            <span class="text">Соглашаюсь с рассылкой и принимаю <a href="./index.html" class="link">Условия
+                    <div class="policy">
+                        <label for="checkbox" class="policy__label">
+                        
+                            <input type="checkbox" name="policy" class="policy__checkbox" id="checkbox">
+                            <span class="policy__icon"></span>
+                            <span class="policy__text">Соглашаюсь с рассылкой и принимаю <a href="./index.html" class="policy__link">Условия
                                     договора</a>
                             </span>
-                            
                             
                         </label>
                     </div>
@@ -77,14 +76,14 @@
                     
                 
 
-                    <button type="submit" class="button-send"><span class="button-title">Отправить</span></button>
+                    <button type="submit" class="form__button">Отправить</button>
             </form>
             
-            <div class="icon-thumb">
-                <button type="button" class="button-close" data-modal-close><svg width="11" height="11" class="icon">
+                <button type="button" class="modale__button-close" data-modal-close>
+                    <svg width="11" height="11" class="modale__icon">
                     <use href="./image/logo/icons.svg#icon-crist"></use>
-                </svg></button>
-            </div>
+                    </svg>
+                </button>
         </div>
         
     </div>
@@ -95,7 +94,7 @@
     <div class="page-header container">
 
         <a href="./portfolio.html" class="logo">
-            <span class="logo__title">
+            <span class="logo__title-black">
                 <span class="logo__title--accent">Web</span>Studio
             </span>
         </a>
@@ -385,7 +384,7 @@
         <div class="address">
 
             <a href="./portfolio.html" class="logo">
-                <span class="logo__title">
+                <span class="logo__title-white">
                     <span class="logo__title--accent">Web</span>Studio
                 </span>
             </a>

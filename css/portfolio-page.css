@@ -282,6 +282,7 @@ summary {
 .follow_button {
   width: 200px;
   height: 50px;
+  padding: 0;
   background-color: #2196F3;
   color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -341,7 +342,7 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.logo__title {
+.logo__title-black {
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -597,8 +598,12 @@ body {
   margin-right: 70px;
 }
 
-.logo__title {
+.logo__title-white {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .address__list {

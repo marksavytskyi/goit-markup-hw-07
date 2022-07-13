@@ -19,6 +19,8 @@
 
     width: 200px;
     height: 50px;
+
+    padding: 0;
     
     background-color: $colorAccent;
     color: #ffffff;
@@ -55,4 +57,18 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+%formOutline {
+    outline: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+%checkboxHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
 }
