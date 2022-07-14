@@ -566,6 +566,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header {
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -729,7 +732,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: transparent;
 }
 
 .feature__title {
@@ -829,6 +832,7 @@ body {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #FFFFFF;
 }
 .card__item:nth-child(4n) {
   margin-right: 0;

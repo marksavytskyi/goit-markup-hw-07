@@ -3,8 +3,6 @@
     padding-bottom: 94px;
 }
 
-.container {}
-
 .feature__list {
     @extend %resetListStyles;
 
@@ -27,7 +25,7 @@
     margin-right: auto;
     
     height: 120px;
-    background-color: #F5F4FA;
+    background-color: transparent;
 }
 
 .feature__title {
