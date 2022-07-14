@@ -18,14 +18,17 @@
         margin-right: 0;
     }
 }
-
+.feature__thumb {
+    width: 100%;
+    background-color: #F5F4FA;
+}
 .feature__icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
     
     height: 120px;
-    background-color: transparent;
+    
 }
 
 .feature__title {
